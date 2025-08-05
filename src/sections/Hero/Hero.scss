@@ -1,0 +1,78 @@
+.hero-body {
+  background-color: #1c2a45;
+  min-height: 100vh;
+  background-image: url("./hero-bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  & h1 {
+    max-width: 830px;
+
+    padding-top: clamp(60px, 10vh, 145px);
+
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 95px;
+    color: #ffffff;
+  }
+  & p {
+    max-width: 547px;
+
+    padding-top: clamp(16px, 10vh, 50px);
+
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    color: #ffffff;
+  }
+}
+
+.hero-actions {
+  margin-top: 70px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  &__play {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    & p {
+      padding: 0;
+      width: 104px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      color: #a1a8b6;
+    }
+  }
+}
+.hero-gallery {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: end;
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    & h3 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.01em;
+      color: #ffffff;
+    }
+  }
+  &__items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+  }
+}

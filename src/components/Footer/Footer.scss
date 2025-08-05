@@ -1,0 +1,22 @@
+.footer {
+  background-color: #f8f8f8;
+}
+
+.footer-body {
+  padding: 70px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 123px;
+    & div {
+      max-width: 195px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #90a4b2;
+    }
+  }
+}

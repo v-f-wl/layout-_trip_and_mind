@@ -1,0 +1,35 @@
+.button {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  border-radius: 38px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.regular {
+  padding: 25px 80px;
+  color: #331111;
+  background: #dd9428;
+  border: 2px solid #dd9428;
+  &:hover {
+    background: none;
+    color: #dd9428;
+  }
+}
+
+.secondery {
+  padding: 25px 65px;
+  border: 2px solid #dd9428;
+  color: #dd9428;
+  &:hover {
+    background-color: #dd9428;
+    color: #331111;
+  }
+}
+
+.small {
+  padding: 25px 46px;
+}

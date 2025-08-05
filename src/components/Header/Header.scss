@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 40px;
+  color: #fff;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    & a {
+      display: inline-block;
+      padding: 4px 8px;
+      font-weight: 500;
+      font-size: 18px;
+      transition: 0.3s;
+      &:hover {
+        color: #dd9428;
+      }
+    }
+  }
+}
