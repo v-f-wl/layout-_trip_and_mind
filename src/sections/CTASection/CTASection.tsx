@@ -1,4 +1,5 @@
 import Button from '../../components/UI/Button';
+import Title from '../../components/UI/Title';
 import './CTASection.scss'
 const CTASection = () => {
   return ( 
@@ -6,7 +7,7 @@ const CTASection = () => {
 
       <div className="container cta-body">  
         <div className="cta-body__title">
-          <h2>Оставьте заявку на бесплатную консультацию</h2>
+          <Title label='Оставьте заявку на бесплатную консультацию'/>
           <p>Мы перезвоним вам в ближайшее время</p>
         </div>
         <div className="cta-body__form">

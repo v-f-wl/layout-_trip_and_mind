@@ -1,19 +1,19 @@
 .button {
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 
-  border-radius: 38px;
+  border-radius: 2.375rem;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .regular {
-  padding: 25px 80px;
+  padding: 1.5625rem 5rem;
   color: #331111;
   background: #dd9428;
-  border: 2px solid #dd9428;
+  border: 0.125rem solid #dd9428;
   &:hover {
     background: none;
     color: #dd9428;
@@ -21,8 +21,8 @@
 }
 
 .secondery {
-  padding: 25px 65px;
-  border: 2px solid #dd9428;
+  padding: 1.5625rem 4.0625rem;
+  border: 0.125rem solid #dd9428;
   color: #dd9428;
   &:hover {
     background-color: #dd9428;
@@ -31,5 +31,32 @@
 }
 
 .small {
-  padding: 25px 46px;
+  padding: 1.5625rem 2.875rem;
+}
+
+@media (max-width: 80rem) {
+  .regular {
+    padding: 1.125rem 3.75rem;
+  }
+  .secondery {
+    padding: 1.125rem 3.4375rem;
+  }
+  .small {
+    padding: 1.125rem 2.25rem;
+  }
+}
+
+@media (max-width: 70rem) {
+  .button {
+    font-size: 1rem;
+  }
+  .regular {
+    padding: 0.875rem 2.5rem;
+  }
+  .secondery {
+    padding: 0.875rem 2.1875rem;
+  }
+  .small {
+    padding: 0.875rem 1rem;
+  }
 }

@@ -33,7 +33,7 @@ const Hero = () => {
         <h1>
           Открой для себя Новую Ирландию
         </h1>
-        <p>
+        <p className='hero-body__info'>
           Авторские туры по экзотическим уголкам от Ивана Иванова
         </p>
         <div className="hero-actions">
@@ -41,7 +41,7 @@ const Hero = () => {
           
           <button className="hero-actions__play">
             <PlayButton/>
-            <p>Посмотрите видео-отчет 2018-2019</p>
+            <p className='hero-actions__play--info'>Посмотрите видео-отчет 2018-2019</p>
           </button>
         </div>
         <div className="hero-gallery">
@@ -67,5 +67,4 @@ const Hero = () => {
     </div>
    );
 }
- 
 export default Hero;

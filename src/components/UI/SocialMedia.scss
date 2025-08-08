@@ -1,11 +1,16 @@
 ul {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   color: #90a4b2;
   & li {
     transition: 0.3s;
     &:hover {
       color: #dd9428;
     }
+  }
+}
+@media (max-width: 65rem) {
+  .social-media {
+    margin-top: 1.75rem;
   }
 }

@@ -3,22 +3,50 @@
   align-items: center;
   justify-content: space-between;
 
-  padding-top: 40px;
+  padding-top: 2.5rem;
   color: #fff;
 
   &__nav {
     display: flex;
     align-items: center;
-    gap: 52px;
+    gap: 3.25rem;
     & a {
       display: inline-block;
-      padding: 4px 8px;
+      padding: 0.25rem 0.5rem;
       font-weight: 500;
-      font-size: 18px;
+      font-size: 1.125rem;
       transition: 0.3s;
       &:hover {
         color: #dd9428;
       }
+    }
+  }
+}
+
+@media (max-width: 80rem) {
+  .header {
+    &__nav {
+      gap: 2.25rem;
+    }
+  }
+}
+
+@media (max-width: 70rem) {
+  .header {
+    padding-top: 2rem;
+    &__nav {
+      gap: 1.75rem;
+      & a {
+        font-size: 0.875rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 32rem) {
+  .header {
+    &__nav {
+      display: none;
     }
   }
 }

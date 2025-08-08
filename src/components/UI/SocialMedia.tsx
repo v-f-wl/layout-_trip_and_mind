@@ -6,7 +6,7 @@ import IYouTube from "../icons/IYouTube";
 
 const SocialMedia = () => {
   return ( 
-    <ul>
+    <ul className='social-media'>
       <li>
         <a href="#">
           <IYouTube/>
